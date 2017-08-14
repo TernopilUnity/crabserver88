@@ -1,0 +1,340 @@
+/*Main Page */
+body {
+	background-color: rgba(245,248,250,1);
+}
+
+/*head */
+#newsbox {
+	padding: 2%;
+	width: 50%;
+	text-align: left;
+	margin-left: 21%;
+	background-color: rgba(255,255,255,1);
+	border: 2px solid rgba(0,0,0,0.125);
+}
+
+#News {
+	margin-left: 13% ;
+	border: 2px solid rgba(0,0,0,0.125);
+}
+
+
+#titlenewsnysp {
+	color: black;
+	text-align: center;
+	padding: 5px 10px 5px 30px;
+	margin-left: 21.75% ;
+	border-bottom: 3px solid rgba(0,0,0,0.125);
+	width: 50%;
+	font-family: Arimo;
+	font-size: 30px;
+}
+
+#titlenewsnysp2 {
+	color: rgba(100,119,136,0.9);
+	text-align: center;
+	padding: 5px 10px 5px 30px;
+	margin-left: 21.75% ;
+	width: 50%;
+	font-family: Arimo;
+	font-size: 17px;
+
+}
+
+/*Drop menu*/
+
+header{
+    margin-top: 3%;
+    margin-left: -3.8%;
+    font-family: Arial, Helvetical, sans-serif;
+}
+
+.dws-menu *{
+    margin: 0;
+    padding: 0; 
+   
+}
+
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+
+.dws-menu > ul li a{
+    display: block;
+    background: #3d3d3d;
+    padding: 25px 120px 25px 120px; 
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s all ;
+}
+.dws-menu > ul li {
+	position: relative;
+}
+
+
+.dws-menu > ul li > a i.fa{
+    font-size: 18pt;
+    position: absolute;
+    top: 22px;
+    left: 75px;
+}
+
+.dws-menu li a:hover{
+    background: #666;
+    box-shadow: 1px 5px 10px -5px black;
+}
+
+.dws-menu > ul li:first-child{
+    border-right: 1px solid #666;
+}
+
+.dws-menu > ul li:last-child{
+    border-left: 1px solid #666;
+}
+
+/*Sub menu*/
+
+.dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+    left: -12px;
+}
+
+.dws-menu li > ul li a{
+    border: 1px solid #666;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.dws-menu li:hover > ul{
+    display: block; 
+}
+
+/*main page news */
+img {
+	width: 70%;
+}
+
+#headerbackground {
+	background: rgb(48,151,209);
+	top:0;
+	left:0;
+	right:0;
+	height:100px;
+	text-align: center;
+    margin-top: 20px;
+}
+
+#logoimg {
+	width: 7%;
+	height: 100%;
+	margin-left: 0%;
+	float: left;
+}
+
+#mainheader {
+	padding: 25px 30px 20px 20px;
+	font-family: Arimo;
+	color: white;
+	font-weight: 600;
+	font-size: 46px;
+	font-variant: small-caps; 
+   
+}  
+
+p {
+    font-family: Arimo;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(100,119,136);
+}
+
+h2 {
+	font-family: Arimo;
+	font-size: 22px;
+}
+
+.engpar {
+	font-family: Raleway;
+}
+
+/* Full Desc Page 1 NYSP */
+#bookingimg {
+	width: 40%;
+	height: 100%;
+	margin-left: 7%;
+	margin-top: 2%;
+	float: left;
+}
+
+#fulldescpt1 {
+	
+	margin-left: 7%;
+	width: 40%;
+}
+
+.ParDesc {
+	float:left;
+}
+
+#fulldescpt2 {
+	padding-top: 5%;
+	position:absolute;
+	text-align: left;
+	line-height: 2;
+	margin-left: 57%;
+    top: 30%;
+    left: -7%;
+}
+
+.pardesc {
+	padding-top: 50px;
+}
+
+/* Booking button */
+.bbutton {
+	position: absolute;
+	left: 23%;
+	top: 105%;
+	background-color: #3d3d3d;
+	color: #fff;
+	padding: 25px 100px 25px 100px;
+	font-family: Arial, Helvetical, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1px solid #666;
+	transition: 0.5s all ;
+	margin-bottom: 1%;
+}
+
+.bbutton:hover {
+	background: #666;
+    box-shadow: 1px 5px 10px -5px black;
+}
+
+/*Order button */
+.bbutton2 {
+	position: absolute;
+	left: 56%;
+	top: 105%;
+	background-color: #3d3d3d;
+	color: #fff;
+	padding: 25px 100px 25px 100px;
+	font-family: Arial, Helvetical, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1px solid #666;
+	transition: 0.5s all ;
+	margin-bottom: 1%;
+}
+
+.bbutton2:hover {
+	background: #666;
+    box-shadow: 1px 5px 10px -5px black;
+}
+
+/* Contacts */
+#Contacts {
+    position: absolute;
+    top: 37%;
+    left: 15%;
+    font-variant: small-caps;
+    font-size: 18pt; 
+    font-family: Arimo;
+    font-weight: 600;
+}
+
+i.fa {
+    font-size: 20pt;
+    left: 20%;
+} 
+
+#Cdata {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-size: 18pt;
+    font-family: Arimo;
+}
+
+/* RestChoise */
+
+.CMTitle {
+	text-align: left;
+	margin-top: 3%;
+	font-family: Arimo;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin-left: 7%;
+	border-bottom: 2px solid #3d3d3d;
+	width: 10%;
+	
+}
+
+.ImgRC {
+	float: left;
+	width: 20%;
+	margin: 2%;
+	margin-left: 7%;
+	margin-top: 3%;
+
+} 
+
+.R1 {
+	text-align: left;
+	position: absolute;
+	top: 66.5%;
+	left: 7.4%;
+	font-size: 18px;
+}
+
+.PR1 {
+	text-align: left;
+	position: absolute;
+	top: 68.5%;
+	left: 7.4%;
+	font-size: 16px;
+}
+
+.R2 {
+	text-align: left;
+	position: absolute;
+	top: 66.5%;
+	left: 36.2%;
+	font-size: 18px;
+}
+
+.PR2 {
+	text-align: left;
+	position: absolute;
+	top: 68.5%;
+	left: 36.2%;
+	font-size: 16px;
+}
+
+.R3 {
+	text-align: left;
+	position: absolute;
+	top: 66.5%;
+	left: 65%;
+	font-size: 18px;
+}
+
+.PR3 {
+	text-align: left;
+	position: absolute;
+	top: 68.5%;
+	left: 65%;
+	font-size: 16px;
+}
+
+
