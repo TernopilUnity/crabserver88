@@ -338,3 +338,46 @@ i.fa {
 }
 
 
+/* Styling menu photo */ 
+
+.FDS {
+	width: 20%;
+    margin-left: 40%;
+}
+
+.TH1 {
+	text-align: left;
+	margin-top: 3%;
+	font-family: Arimo;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin-left: 7%;
+	border-bottom: 2px solid #3d3d3d;
+	width: 10%;
+}
+
+.TH2 {
+	text-align: left;
+	margin-top: 3%;
+	font-family: Arimo;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin-left: 7%;
+	border-bottom: 2px solid #3d3d3d;
+	width: 10%;
+}
+
+.TH3 {
+	text-align: left;
+	margin-top: 3%;
+	font-family: Arimo;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin-left: 7%;
+	border-bottom: 2px solid #3d3d3d;
+	width: 10%;
+}
+
+.FDS2 {
+	margin-left: 40%;
+}
